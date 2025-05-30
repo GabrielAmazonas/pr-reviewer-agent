@@ -11,7 +11,7 @@ class AiBot(ABC):
     __problems="code smells, errors, issues, potential crashes or unhandled exceptions"
     __chat_gpt_ask_long="""
 Could you describe briefly {problems} for the next code with given git diffs? 
-Consider common well known JS development practices known JS code smells.
+Consider common well known good development practices and well known code smells.
 Please, also, do not add intro words, just print errors in the format: "line_number : cause effect"
 If there are no {problems} just say "{no_response}".
 

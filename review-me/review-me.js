@@ -16,16 +16,11 @@ printmessage(message)
 
 eval("console.log('Eval should not be used!')")
 
-// Unused variable
 let unused = 123
 
-// Badly written function
 function DoStuff()
 {
 console.log   (     "Stuff" );
 }
 
-// Extra semicolon
 DoStuff();;
-
-// No end of file newline
